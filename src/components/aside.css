@@ -1,0 +1,60 @@
+
+
+.pAside{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 1.5rem;
+    background: rgb(159, 158, 158);
+    padding: 5px;
+    height: 450px;
+    width: 270px;
+    border: 7px solid rgb(197, 187, 187);
+    border-radius: 10px;
+}
+
+.buttonAside {
+    font-size: 1rem;
+    background-color: rgb(104, 151, 171);
+    color: rgb(27, 2, 2);
+    border: 2px solid rgb(78, 75, 181);
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    padding: 2px;
+    cursor: pointer;
+    /* cursor:hover */
+}
+
+@media screen and (max-width:1282px){
+    
+    .pAside{
+        font-size: 1.1rem;
+        padding: 5px;
+        height: 90%;
+        width: 90%;
+        display: block;
+    }
+
+    .buttonAside {
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-bottom: 8px;;
+
+    }
+}
+
+@media screen and (max-width:1057px){
+    
+    .pAside{
+        font-size: 1.1rem;
+        padding: 5px;
+        display: block;
+    }
+
+    .buttonAside {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+
+    }
+}

@@ -1,0 +1,76 @@
+.divPrincipalVideojuegos {
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Games, .Games2{
+    padding: 10px;
+}
+
+@media screen and (max-width: 1120px) {
+    .divPrincipalVideojuegos {
+        padding: 4px;
+        margin: 2px;
+    }
+
+    .Games, .Games2{
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .divPrincipalVideojuegos {
+        padding: 2px;
+        margin: 1px;
+    }
+
+    .Games, .Games2{
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .Games, .Games2{
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .divPrincipalVideojuegos {
+        padding: 0px;
+    }
+
+    .Games{
+        padding: 1px;
+        width: 147px;
+    }
+}
+
+@media screen and (max-width: 341px) {
+    .divPrincipalVideojuegos {
+        padding: 0px;
+    }
+
+    .Games{
+        padding: 1px;
+        width: 130px;
+    }
+
+    .Games2{
+        padding: 1px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    .Games{
+        width: 110px;
+    }
+
+    .Games2{
+        width: 110px;
+    }
+}

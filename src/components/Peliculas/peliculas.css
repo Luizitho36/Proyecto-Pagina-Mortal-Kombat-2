@@ -1,0 +1,52 @@
+.divPrincipalPeliculas {
+    font-size: 15px;
+    color: rgb(234, 226, 243);
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.Movies{
+    padding: 10px;
+    margin: 5px;
+}
+
+@media screen and (max-width:1265px){
+    .Movies{
+        width: 250px;
+        padding: 3px;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width:976px){
+    .Movies{
+        width: 200px;
+        padding: 2px;
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width:730px){
+    .Movies{
+        width: 160px;
+        height: 210px;
+        padding: 1px;
+        margin: 1px;
+    }
+}
+
+@media screen and (max-width:560px){
+    .Movies{
+        width: 130px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:463px){
+    .Movies{
+        width: 100px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,20 @@
+.divVideos {
+  flex-direction: row;
+  margin: 5px;
+}
+
+.videoMK {
+  display: inline-block;
+  margin: 4px;
+  width: 610px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 760px) {
+  .videoMK {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-height: 170px;
+  }
+}

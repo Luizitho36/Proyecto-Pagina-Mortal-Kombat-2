@@ -1,0 +1,41 @@
+#root {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("./img/Wallpapers/wallpaper_Mileena.jpg");
+  width: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Header {
+  height: 360px;
+}
+
+.App {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1025px) {
+  .Header {
+    height: 255px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #root {
+    padding: 0.8rem;
+  }
+
+  .Header {
+    width: 98%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #root {
+    padding: 0.7rem;
+  }
+  
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Arcade Mortal Kombat (1992)",
+    "price": 200,
+    "imgUrl": "./src/img/Shop/Arcade-MK_1992.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Arcade Mortal Kombat II",
+    "price": 600,
+    "imgUrl": "./src/img/Shop/Arcade-MKII.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Arcade Mortal Kombat 3",
+    "price": 400,
+    "imgUrl": "./src/img/Shop/Arcade-MK3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Arcade Mortal Kombat 4",
+    "price": 300,
+    "imgUrl": "./src/img/Shop/Arcade-MK4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Joypad Mortal Kombat",
+    "price": 650,
+    "imgUrl": "./src/img/Shop/Joypad_MK.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mortal Kombat 11 - Ultimate",
+    "price": 950,
+    "imgUrl": "./src/img/Shop/MK11_Ultimate.png"
+  },
+  {
+    "id": 7,
+    "name": "MiniArcade Mortal Kombat",
+    "price": 450,
+    "imgUrl": "./src/img/Shop/MiniArcade-MK_1992.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Scorpion - Figura de Acción",
+    "price": 700,
+    "imgUrl": "./src/img/Shop/Action_Figure-Scorpion.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Sub-Zero - Figura de Acción",
+    "price": 700,
+    "imgUrl": "./src/img/Shop/Action_Figure-Sub-Zero.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Liu Kang - Figura de Acción",
+    "price": 700,
+    "imgUrl": "./src/img/Shop/Action_Figure-Liu_Kang.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Kung Lao - Figura de Acción",
+    "price": 700,
+    "imgUrl": "./src/img/Shop/Action_Figure-Kung_Lao.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Goro - Figura de Acción",
+    "price": 700,
+    "imgUrl": "./src/img/Shop/Action_Figure-Goro.jpg"
+  }
+]

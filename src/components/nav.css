@@ -1,0 +1,130 @@
+.logoMK {
+  width: 52px;
+}
+
+.divPrincipalNav {
+  font-family: "Staatliches", cursive;
+}
+
+#menu-icono {
+  display: none;
+  color: #d6e1e9;
+}
+
+ul {
+  background-color: black;
+  display: flex;
+  margin: 9px;
+  height: 65px;
+  justify-content: space-around;
+  width: 100%;
+  border: 1px solid rgb(235, 77, 77);
+  padding: 2px;
+}
+
+.link {
+  font-size: 32px;
+  color: rgb(201, 80, 80);
+  border: 0.05px solid rgb(36, 32, 32);
+  border-spacing: 3px;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  margin: 2px;
+  align-content: center;
+  padding: 2px 2px;
+}
+
+.active {
+  font-size: 37px;
+  color: rgb(228, 129, 129);
+  font-family: "Coda Caption", sans-serif;
+}
+
+.espacios {
+  list-style: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .logoMK {
+    width: 43px;
+  }
+  .link {
+    font-size: 29px;
+  }
+  ul {
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .logoMK {
+    width: 38px;
+  }
+  .link {
+    font-size: 26px;
+  }
+  ul {
+    height: 52px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  ul {
+    margin: 7px;
+    justify-content: space-around;
+    width: 100%;
+    height: 41px;
+    border: 1px solid rgb(235, 77, 77);
+    padding: 1px;
+  }
+
+  .link {
+    font-size: 20px;
+    border-spacing: 1.5px;
+    padding: 1px 1px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .logoMK {
+    display: none;
+  }
+
+  #menu-icono {
+    display: inline-block;
+    color: #a6c9e1;
+    height: 5px;
+    margin-left: 5%;
+  }
+
+  .ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 10px;
+    border: 0.5px solid #a5bdcd;
+    right: 5%;
+    width: 60%;
+    opacity: 1.25;
+    list-style: none;
+    height: 230px;
+  }
+
+  .logoMK {
+    margin: auto;
+  }
+
+  .divPrincipalNav:hover .ul {
+    display: grid;
+  }
+
+  .link {
+    font-size: 20px;
+    color: rgb(111, 12, 12);
+    border: 0.03px solid rgb(36, 32, 32);
+    align-content: center;
+    padding: 1px 1px;
+    height: fit-content;
+  }
+}

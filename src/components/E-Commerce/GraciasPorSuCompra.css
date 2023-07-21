@@ -1,0 +1,42 @@
+.divGraciasPorSuCompra {
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Poltawski Nowy', serif;
+    color: rgb(234, 226, 243);
+    text-align: center;
+    margin: auto;
+    max-width: 75%;
+    box-sizing: border-box;
+
+}
+
+.divGraciasPorSuCompra p{
+    font-size: 40px;
+}
+
+.volverStore{
+    display: none;
+}
+
+@media screen and (max-width:1030px){
+    .volverStore{
+        display: grid;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .divGraciasPorSuCompra {
+        font-size: 28px;
+        max-width: 90%;
+    }
+
+    .divGraciasPorSuCompra p{
+        font-size: 20px;
+    }
+
+    .volverStore{
+        font-size: 10px;
+        
+    }
+}

@@ -1,0 +1,172 @@
+* {
+  font-family: "Coda Caption", sans-serif;
+  font-size: 25px;
+}
+
+.precio-item {
+  color: #b48282;
+  display: block;
+}
+
+.caja-item {
+  background-color: #110d19;
+  margin: 15px 12px;
+  height: 500px;
+  width: 255px;
+  border-radius: 5px;
+  border: 1px solid #0b012d;
+  display: block;
+  padding: 15px;
+}
+
+.imgURL {
+  width: 270px;
+  height: 305px;
+}
+
+.boton-agregar {
+  font-size: 20px;
+  background-color: #a00404;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.eliminar-item {
+  font-size: 23px;
+  background-color: #d9534f;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.agregar-mas {
+  font-size: 23px;
+  background-color: #4c83b3;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.contador-item {
+  color: #fff;
+  background-color: #6c0d0d;
+  display: flex;
+  justify-content: center;
+  border-radius: 20%;
+  max-width: 40px;
+  position: relative;
+  left: 100px;
+}
+
+@media screen and (max-width: 698px) {
+  * {
+    font-size: 16px;
+  }
+
+  .caja-item {
+    height: 450px;
+    width: 40%;
+    padding: 10px;
+  }
+
+  .imgURL {
+    width: 95%;
+    height: 55%;
+  }
+
+  .boton-agregar {
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .caja-item {
+    height: 280px;
+    width: 40%;
+    padding: 8px;
+  }
+
+  .boton-agregar {
+    font-size: 15px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  * {
+    font-size: 12.2px;
+  }
+
+  .boton-agregar {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .caja-item {
+    height: 280px;
+    width: 38%;
+    padding: 6px;
+  }
+
+  .boton-agregar {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .caja-item {
+    height: 250px;
+    width: 35%;
+    padding: 5px;
+  }
+
+  .boton-agregar {
+    font-size: 11px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .caja-item {
+    height: 200px;
+    width: 34.5%;
+    padding: 1px;
+  }
+
+  .boton-agregar {
+    font-size: 10px;
+    padding: 3px;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  * {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 282px) {
+  * {
+    font-size: 10px;
+  }
+
+  .caja-item {
+    height: 270px;
+    width: 80%;
+  }
+
+  .boton-agregar {
+    font-size: 13px;
+  }
+}
